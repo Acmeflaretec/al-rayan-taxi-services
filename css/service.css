@@ -1,0 +1,115 @@
+/*-------- Start services Area -------------*/
+.services-area .single-service {
+    background-color: #f9f9ff;
+    text-align: center;
+    padding: 30px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+  
+  .services-area .single-service .lnr {
+    color: #222;
+    font-size: 30px;
+    font-weight: 900;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+  
+  .services-area .single-service h4 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+  
+  .services-area .single-service:hover {
+    background-color: #000000;
+    pointer: cursor;
+  }
+  
+  .services-area .single-service:hover h4,
+  .services-area .single-service:hover .lnr {
+    color: #f9d700;
+  }
+  
+  @media (max-width: 991px) {
+    .services-area .single-service {
+      margin-bottom: 30px;
+    }
+  }
+  
+  /*-------- End services Area -------------*/
+
+
+  .section-title {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+  }
+  
+  .section-title h1 {
+    margin-bottom: 10px;
+  }
+  .primary-btn {
+    background: #f9d700;
+    line-height: 42px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    color: #fff;
+    display: inline-block;
+    font-weight: 600;
+    position: relative;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    position: relative;
+}
+
+.home-about-area .about-right .primary-btn {
+    color: #222;
+    border: 1px solid transparent;
+}
+.home-about-area .about-right p {
+    margin-bottom: 20px;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+body {
+    color: #777777;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.625em;
+    position: relative;
+}
+.home-about-area .about-right .primary-btn:hover {
+    background-color: transparent;
+    border-color: #f9d700;
+    color: #f9d700;
+}   
+.home-about-area{
+    margin: 20px;
+}
